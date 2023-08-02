@@ -1,49 +1,81 @@
 
+* {
+  margin:0;
+  padding:0;
 
 
-.nav{
-    background-color: aqua;
-    width:97%;
-    height:100px;
-    border: 5px solid black;
-    
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:center;
+  }
+  
+body{
+background-color:white;
+font-family: sans-serif;
 }
 
-.main{
-    background-color: white;
-    width:98%;
-    height: calc(98vh - 200px);
-    display: flex;
-    margin-left: 5px;
-    margin-block: 7px;
-    }
-    
-    .section{
-    background-color:blue; 
-    width: 100%;
-    height:97%;
-    margin-right:10px;
-    
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    }
+.nav{
 
-    .footer{
-        background-color: sandybrown;
-        width: 98%;
-        height: 80px;
-        margin-block: 3px;
-        margin-top: 2%;
-        
-        display:flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items:center;
-        }
+}
+
+.img{
+
+  width: 980px;
+  height: 700px;
+}
+
+
+
+.section{
+background-color:blue; 
+width: 90%;
+height:70%;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5px;
+    width:500px;
+
+  }
+  
+  span{
+    color:white;
+    margin:5px;
+  }
+  
+  #uno {
+    grid-column: 1 / 4; /* 1,2,3*/
+    grid-row:1/2;
+    font-size:40px;
+  }
+  
+  #dos {
+    grid-column: 2 / 3;
+    grid-row:2/3;
     
+  }
+  
+  #tres {
+    grid-column: 3/4;
+    grid-row:2/4;
+    font-size:50px;
+  }
+  
+  #cuatro {
+    grid-column: 3/4;
+    grid-row:4/5;
+  }
+  
+  
+.footer{
+  background-color: sandybrown;
+  width: 100%;
+  height: 100px;
+  margin-block: 3px;
+  margin-top: 2%;
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  }
