@@ -1,38 +1,50 @@
 body{
-  background-color:white;
-  font-family: sans-serif;
-  margin:4%;
-  }
+background-color:white;
+font-family: sans-serif;
+margin:2%;
+padding: 2%;
+}
 
+.logocdmx{
+width: 4px;
+height: 4px;  
+}
 .nav{
-  margin: 0%;
-  padding: 0%;
-  display:flex;
-  justify-content: end;
-  align-items: end;
-
+margin: 0%;
+padding: 0%;
+display:flex;
+justify-content: end;
+align-items: end;
+border-left: 2em;
+border-right: 2em;
 }
 
 .navbar > a{
-  color:rgb(190, 19, 19);
-  text-decoration: none;
-  
+list-style: none;
+color:rgb(190, 19, 19);
+text-decoration: none;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:larger;
+border-radius: 3rem;
+padding: 7px;
 }
-  
-  .section{
-  background-image: url(img/cdmx\ imagen.jpg);
-  padding-bottom: 8%;
-  background-repeat:no-repeat;
-  padding-bottom: 1%;
-  
-  }
+
+.navbar > a:hover{
+background-color:#99b3eb
+}
+
+.section{
+background-image: url(img/cdmx\ imagen.jpg);
+padding-bottom: 8%;
+background-repeat:no-repeat;
+padding-bottom: 1%;
+}
 
 .grid-container {
-  display: grid;
-  grid-template-columns:auto;
-
-  margin:2%;
-  width:200vh;
+display: grid;
+grid-template-columns:auto;
+margin:1%;
+width:200vh;
 }
 
 #vector{
@@ -45,62 +57,56 @@ margin-top: 15%;
 }
 
 span{
-  color:white;
-
+color:white;
 }
 
-#uno {
-  grid-column: 2 / 5; /* 1,2,3*/
-  grid-row:1/2;
-  font-size:40px;
-  padding-top: 7%;
+#uno{
+grid-column: 2 / 5; /* 1,2,3*/
+grid-row:1/2;
+font-size:40px;
+padding-top: 7%;
 }
 
-#dos {
-  grid-column: 2 / 3;
-  grid-row:2/3;
-  justify-self: end;
-  align-self:end;
-
+#dos{
+grid-column: 2 / 3;
+grid-row:2/3;
+justify-self: end;
+align-self:end;
 }
 
-#tres {
-  grid-column: 3 / 4;
-  grid-row:2/4;
-  font-size:50px;
+#tres{
+grid-column: 3 / 4;
+grid-row:2/4;
+font-size:50px;
 }
 
-#cuatro {
-  grid-column: 3/4;
-  grid-row:4/5;
-  
+#cuatro{
+grid-column: 3/4;
+grid-row:4/5;
 }
 
 .footer{
-  background-color: white;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items:center;
-  line-height: 0px;
-  
+background-color: white;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+align-items:center;
+line-height: 0px;
 }
 
 .text1{
-  color:darkorange;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size:large;
-
+color:darkorange;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:large;
+word-spacing: 5px;
 }
 
 .text2{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size:large;
-
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:large;
 }
 
 .text3{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size:large;
-
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:large;
 }
