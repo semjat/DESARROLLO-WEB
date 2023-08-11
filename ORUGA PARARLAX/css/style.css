@@ -68,7 +68,7 @@ body, html{
 }
 /*Clases con las imágenes de cada bloque*/
 .portada{
-    background-image: url('../img/fondo1-1.jpg');
+    background-image: url('style.css');
     min-height:100%;
     vertical-align: middle;
 }
