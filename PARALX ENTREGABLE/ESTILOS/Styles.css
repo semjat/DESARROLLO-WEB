@@ -14,7 +14,7 @@ body, html{
 .pborde{
     background-color: rgba(0, 0, 0, 0.737);
     padding:2rem; /*espacio hacia afuera del contenido*/
-    font-size: 4vw; /*Tamaño de la fuente*/
+    font-size: 5vw; /*Tamaño de la fuente*/
     border-radius: 10px; /*Redondeado de esquinas*/
 }
 /*Estilo del título*/
@@ -26,7 +26,7 @@ body, html{
     text-transform:uppercase;
     color: white;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-shadow: -4px 3px 0 #060606;
+    text-shadow: 0px 0px 0 #f5f2f2;
 }
 /*Estilo de los subtítulos*/
 .subtitulo{
@@ -68,23 +68,23 @@ body, html{
 }
 /*Clases con las imágenes de cada bloque*/
 .portada{
-    background-image: url('../img/fondo1-1.jpg');
+    background-image: url('IMG/fondo\ 1-1.PNG');
     min-height:100%;
     vertical-align: middle;
 }
 .img2{
-    background-image:url('../img/fondo2.jpg');
+    background-image:url('IMG/fondo\ 2.PNG');
     min-height:100%;
 }
 .img3{
-    background-image:url('../img/fondo3-1.JPG');
+    background-image:url('IMG/fondo\ 3-1.PNG');
     min-height:100%;
 }
 .img4{
-    background-image:url('../img/fondo4.jpg');
+    background-image:url('IMG/fondo\ 4.PNG');
     min-height:100%;
 }
 .img5{
-    background-image:url('../img/fondo5.jpg');
+    background-image:url('IMG/fondo\ 5.PNG');
     min-height:100%;
 }
