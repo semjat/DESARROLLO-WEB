@@ -24,8 +24,8 @@ body, html{
     top:30%;
     width: 100%;
     text-transform:uppercase;
-    color: white;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #f8f8f8;
+    font-family:  'Playfair Display', serif;
     text-shadow: 0px 0px 0 #f5f2f2;
 }
 /*Estilo de los subtítulos*/
@@ -68,7 +68,7 @@ body, html{
 }
 /*Clases con las imágenes de cada bloque*/
 .portada{
-    background-image: url('IMG/fondo\ 1-1.PNG');
+    background-image: url();
     min-height:100%;
     vertical-align: middle;
 }
